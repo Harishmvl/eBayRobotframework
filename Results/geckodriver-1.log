@@ -1,0 +1,14 @@
+1682958087478	geckodriver	INFO	Listening on 127.0.0.1:51742
+1682958087901	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/8w/0fxb9w3j3yngfchj166g870r0000gn/T/rust_mozprofileAkU3xX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682958088572	Marionette	INFO	Marionette enabled
+1682958088828	Marionette	INFO	Listening on port 51833
+Read port: 51833
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:51743
+1682958089036	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/8w/0fxb9w3j3yngfchj166g870r0000gn/T/rust_mozprofileAkU3xX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51743/devtools/browser/a96206d4-dc95-4d32-9780-e1dfff8add25
+1682980923381	Marionette	INFO	Stopped listening on port 51833
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
