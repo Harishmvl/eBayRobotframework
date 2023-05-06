@@ -18,8 +18,8 @@ Verify Basic Search functionality for eBay
     [Documentation]  This testcase verifies basic search
     [Tags]  Functional
 
-    HeaderPage.Input Search String and Click Search
-    SearchResultsPage.Verify Search Results
+    HeaderPage.Input Search String and Click Search  Table
+    SearchResultsPage.Verify Search Results  Table
 
 #Verify Advanced Search Results
 #    [Documentation]  This testcase verifies advanced search
