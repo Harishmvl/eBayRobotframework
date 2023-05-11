@@ -6,6 +6,9 @@ Library  SeleniumLibrary
 
 #@{search_text}=   books  travel  pen  smartphone
 &{search_text}  abc=books   bcd=travel
+${SearchTextPath}  xpath://*[@id="gh-ac"]
+${SearchButton}  xpath://*[@id="gh-btn"]
+${AdvancedSearchButton}  xpath://*[@id="gh-as-a"]
 
 *** Keywords ***
 # //*[@id="gh-as-a"] - ADVANCED
@@ -15,9 +18,9 @@ Library  SeleniumLibrary
 Input Search String and Click Search
     [Arguments]  ${search_string}
     #Input Text  xpath://*[@id="gh-ac"]  ${search_text}[bcd]
-    Input Text  xpath://*[@id="gh-ac"]  ${search_string}
-    Press Keys  xpath://*[@id="gh-btn"]  RETURN
+    Input Text  ${SearchTextPath}  ${search_string}
+    Press Keys  ${SearchButton}  RETURN
 
 Click on Advanced Search Link
-    Click Element  xpath://*[@id="gh-as-a"]
+    Click Element  ${AdvancedSearchButton}
 
